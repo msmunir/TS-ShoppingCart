@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Watch1",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "price": 10.99,
+    "imgUrl": "/images/watch1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Watch2",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "price": 30.99,
+    "imgUrl": "/images/watch2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Watch3",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "price": 50.99,
+    "imgUrl": "/images/watch3.jpg"
+  }
+]
