@@ -37,6 +37,8 @@ export const ShoppingCartProvider = ({
   children,
 }: ShoppingCartProviderProps) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  // useLocalStorage instead of useState to save data. take one default value shopping-cart
   const [cartItems, setCartItems] = useLocalStorage<CartItem[]>(
     "shopping-cart",
     []
