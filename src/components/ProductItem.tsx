@@ -26,6 +26,7 @@ const ProductItem = ({
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
   return (
     <>
       <Card style={{ width: "18rem" }}>
@@ -39,9 +40,7 @@ const ProductItem = ({
           <Card.Title className="d-flex justify-content-between mb-4">
             <div>{name}</div>
             <div className="ms-2 text-muted">{currencyFormat(price)}</div>
-            {/* <div className="ms-2 text-muted">{price}</div> */}
           </Card.Title>
-          <Card.Text>{description}</Card.Text>
 
           <div className="mt-auto">
             {quantity === 0 ? (
@@ -55,6 +54,22 @@ const ProductItem = ({
                 <Button className="w-50" onClick={handleShow}>
                   Details
                 </Button>
+                <Modal show={show} onHide={handleClose}>
+                  <Modal.Header closeButton>
+                    <Modal.Title id="example-custom-modal-styling-title">
+                      {name}
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>{description}</Modal.Body>
+                  <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                      Close
+                    </Button>
+                    {/* <Button variant="primary" onClick={() => increaseItem(id)}>
+                      Add to Cart
+                    </Button> */}
+                  </Modal.Footer>
+                </Modal>
               </div>
             ) : (
               <div
@@ -81,20 +96,6 @@ const ProductItem = ({
           </div>
         </Card.Body>
       </Card>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
-      </Modal>
     </>
   );
 };

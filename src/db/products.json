@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "Watch1",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat",
     "price": 10.99,
     "imgUrl": "/images/watch1.jpg"
   },
   {
     "id": 2,
     "name": "Watch2",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas",
     "price": 30.99,
     "imgUrl": "/images/watch2.jpg"
   },
   {
     "id": 3,
     "name": "Watch3",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "description": "nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio",
     "price": 50.99,
     "imgUrl": "/images/watch3.jpg"
   }
