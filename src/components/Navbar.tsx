@@ -9,11 +9,11 @@ const Navbar = () => {
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
-            Home
+            w-SHop
           </Nav.Link>
-          <Nav.Link to="/:id" as={NavLink}>
+          {/* <Nav.Link to="/product/:id" as={NavLink}>
             Product
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
         <Button
           onClick={openCart}

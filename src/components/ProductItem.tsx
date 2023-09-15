@@ -60,7 +60,17 @@ const ProductItem = ({
                       {name}
                     </Modal.Title>
                   </Modal.Header>
-                  <Modal.Body>{description}</Modal.Body>
+                  <Modal.Body>
+                    <div>
+                      <img
+                        src={imgUrl}
+                        height="200px"
+                        width="450px"
+                        style={{ objectFit: "cover" }}
+                      />
+                    </div>
+                    {description}
+                  </Modal.Body>
                   <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                       Close

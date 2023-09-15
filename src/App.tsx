@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Home from "./pages/Home";
-import ProductDetails from "./pages/ProductDetails";
+// import ProductDetails from "./pages/ProductDetails";
 import Navbar from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/shoppingCartContext";
 
@@ -15,9 +15,9 @@ const App = () => {
             <Route path="/" element={<Home />}>
               Products
             </Route>
-            <Route path="/:id" element={<ProductDetails />}>
+            {/* <Route path="/:id" element={<ProductDetails />}>
               ProductDetails
-            </Route>
+            </Route> */}
           </Routes>
         </Container>
       </ShoppingCartProvider>
